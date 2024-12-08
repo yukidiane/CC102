@@ -7,21 +7,21 @@ int main() {
    cin >> first_symbol;
    cout << "Enter 2nd symbol: ";
    cin >> second_symbol;
-   for (int i = 0; i <= 8; i++) 
+   for (int i = 0; i <= 6; i++) 
    {
       for (int j = 0; j < i; j++) 
 	  {
-         cout << " " << first_symbol;
+         cout << "" << first_symbol;
       }
-      cout << " " << second_symbol << endl;
+      cout << "" << second_symbol << endl;
    }
-   for (int i = 8; i >= 0; i--) 
+   for (int i = 6; i >= 0; i--) 
    {
       for (int j = 0; j < i; j++) 
 	  {
-         cout << " " << first_symbol;
+         cout << "" << first_symbol;
 		}
-        cout << " " << second_symbol << endl;
+        cout << "" << second_symbol << endl;
    }
 
    return 0;
